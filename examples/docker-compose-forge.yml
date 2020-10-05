@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   mc:
-    image: itzg/minecraft-server
+    image: heverin/itzg-docker-minecraft-server
     ports:
     # expose the Minecraft server port outside of container
     - 25565:25565
